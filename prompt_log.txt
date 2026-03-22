@@ -1,0 +1,28 @@
+I used GitHub Copilot (specifically the Gemini 3 Flash model)
+
+I am coming into this code base midway, and it has already been started by someone else to create a replica of the Fireboy anf Watergirl game. It is very important that I want to preserve the code, meaning I do NOT want to replace it but rather add to it to really bring the FireBoy and Watergirl game to life!. A majority of the game mechanics seem to be working already, but I definitely want to elevate it. Could you help me lay out a plan to do this, and some possible suggestions for bringing this game to life?
+
+Based on what is outlined above, could you put together a comprehensive plan for me?
+
+Let's start with phase 1! Remeber, I just want to ADD to the code rather than replace it
+
+I really love the boxes and floating platforms. Is there a way to make the level progressivly harder. I also feel the placement for some of the floating platforms doesn't make the most sense
+
+For level 1: the flaoting platform seems a bit unnesscary. Maybe we can remove that and introduce floating platforms in level 2. Also, the characters also currently jump high enough to reach the platfrom without the box. For level 2: Because of the fire placement, it is currently impossible to move the watergirl. Could this be changed?
+
+Great! Let's continue with phase 1 and add levers
+
+For level 3, the players atrt in lava, could this pool be moved to a different location. Could you also had keyboard shortcuts that I can use for testing to be able to skip levels without completeing them?
+
+Love it! I think we can now move into phase 2 to really evelvate the UI! Can you maybe elevate the visual effects to make it look as close to the orginal Fireboy Watergirl game as possible?
+
+Yes, let's do the death animation. This should display before the lose screen so the user can see the character exvaporating. Could you also make the gems more gem like, possibly by adding a glow effect?
+
+That looks so good! Could we now add the following:
+Particle Effects:
+Bubbles when Watergirl is near water.
+Flame embers when Fireboy moves.
+Dynamic Portals (Doors): Animate the exit doors to "glow" or open only when both players are standing in front of them.
+Screen Shake: Add a slight camera shake when a player hits a hazard or falls from a great height.
+
+Unfortunately, the portal animation did not seem to work. Instead, it jumps right to the next level. Maybe there could be some sort of delay? Also could the color of the portals fill in with yellow, possibly with a glow? Right now, they are filling in with red and blue respectively and the characters are blending in too much

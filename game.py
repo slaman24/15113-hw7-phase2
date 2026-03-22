@@ -425,6 +425,9 @@ def main():
             if abs(fireboy.vel_x) > 0 and random.random() < 0.2:
                 particles.append(Particle(fireboy.rect.centerx, fireboy.rect.bottom - 5, COLOR_FIRE, random.uniform(-1, 1), -1, 30))
             
+            if abs(watergirl.vel_x) > 0 and random.random() < 0.2:
+                particles.append(Particle(watergirl.rect.centerx, watergirl.rect.bottom - 5, COLOR_WATER, random.uniform(-1, 1), -1, 30))
+
             # Watergirl bubbles near water
             for wt in water:
                 if watergirl.rect.inflate(40, 40).colliderect(wt) and random.random() < 0.1:

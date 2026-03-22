@@ -1,4 +1,8 @@
-Fireboy and Watergirl: 
+I received a Fireboy and Watergirl game with a lot of the functionality already completed (characters, platforms, levels, collectable gems, scoring)! My main focus was making the game more interactive, so I added levers, pushable blocks, and moving platforms to make the different levels more challenging and engaging. Additionally, I added numerous visual elements (trails following the Fireboy and Watergirl characters, bubbles coming off of the lava and water pools, portal animation, death animation, screen shake, etc.) to really bring the game to life.
+
+Two major things I struggled with was sprite design. I initially wanted to replace the custom characters with the actual Fireboy and Watergirl sprites from the game, but I kept running into an issue with this. I assumed it was due to how the characters were coded orginally and I did want to preserve the walking motion, so I decided to keep the custom characters. I also struggled with level generation. I found that a lot of the time, levels were either impossible to complete (or nearly impossible). This took a lot of trial and error, as well as manipulation of game elements to make the levels playable (and fun!).
+
+Fireboy and Watergirl:
 This project is a high-performance reconstruction of the classic cooperative platformer, developed in Python using the Pygame library. The engine focuses on precise mechanical control and procedural animation, providing a polished visual experience without the need for external image assets or sprite sheets.
 
 The game requires players to navigate two characters through environmental puzzles to collect gems and reach designated exits. Fireboy is immune to lava but destroyed by water, while Watergirl can traverse water but is vulnerable to lava. The system uses a state-machine approach to manage transitions between active gameplay, game-over sequences, and victory conditions.
